@@ -13,7 +13,7 @@
     }
 </script>
 
-<style rel="stylesheet/scss" lang="scss" scoped>
+<style scoped>
     .panel-body {
         font-family: 'Arizonia', cursive;
         font-size: 24px;
@@ -22,11 +22,10 @@
     
     .quote {
         cursor: pointer;
-        
-        &.hover {
-            background-color: #ffe2e2;
-        }
     }
 
-    .quote
+    .quote:hover {
+        background-color: #ffe2e2;
+    }
+
 </style>
